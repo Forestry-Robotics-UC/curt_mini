@@ -9,7 +9,13 @@ Battery
 The battery in CURTmini is a 30000 mAh 6-cell lithium polymer battery pack.
 CURTmini or the battery don't include an integrated BMS, it is recommended to use a battery warner device on the battery whenever it is connected to CURTmini, to prevent overdischarge.
 The battery input connector is of XT90 type and located in the front left inside the robot.
-The battery input is fused with a Z-Amp resettable fuse.
+The battery input is fused with a resettable fuse.
+
+For charging, any 6-cell LiPo charger with integrated balancing will work, as is commonly used and available from suppliers for RC model building.
+Specifically, we use the models "Junsi iCharger 406DUO" and "308DUO", with an external 1200W 24V power supply.
+
+.. caution::
+   Make sure the charger is configured correctly! Set the cell chemistry to "LiPo", the appropriate battery capacity, the number of cells to 6, and always choose a charging mode which includes cell balancing!
 
 ******
 Switch
