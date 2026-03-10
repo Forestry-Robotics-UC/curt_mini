@@ -2,6 +2,10 @@ twist_mux:
   ros__parameters:
     use_stamped: true
     topics:
+      ros1_navigation:
+        topic: ros1/cmd_vel_stamped
+        priority: 30
+        timeout: 0.1
       navigation:
         topic: cmd_vel
         priority: 20
