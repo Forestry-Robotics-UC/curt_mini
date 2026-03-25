@@ -383,7 +383,7 @@ void CurtMiniHardwareInterface::writeCommandsToHardware()
     if (!motors_paused_)
     {
       auto tmp_pid = pid_config_;
-      tmp_pid.max_output = 0.0;
+      // tmp_pid.max_output = 0.0; // Commented out to enable braking when receiving zero velocity commands
       publishPIDParams(tmp_pid);
       motors_paused_ = true;
     }
